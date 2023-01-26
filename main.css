@@ -138,12 +138,12 @@ button {
     fill: #b4b4b4;
   }
   .cajasTexto{
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     position: static;
     display: inline-block;
   }
   .input {
-    width: 32%;
+    width: 25%;
     max-width: 120px;
     height: 30px;
     padding: 12px;
@@ -155,7 +155,7 @@ button {
     position: relative;
   }
   .input2 {
-    width: 32%;
+    width: 15%;
     max-width: 220px;
     height: 30px;
     padding: 12px;
@@ -167,7 +167,7 @@ button {
     
   }
   .input3 {
-    width: 32%;
+    width: 15%;
     max-width: 220px;
     height: 30px;
     padding: 12px;
@@ -176,7 +176,39 @@ button {
     outline: none;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
     box-shadow: 0px 0px 20px -18px;
-   
+  }
+  .input4 {
+    width: 15%;
+    max-width: 220px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  .input5 {
+    width: 15%;
+    max-width: 220px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  .input6 {
+    width: 15%;
+    max-width: 220px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
   }
   .input:hover {
     border: 2px solid #00d8e0;
@@ -214,12 +246,12 @@ button {
   .input:focus {
     border: 2px solid #00d8e0;
   }
-.controles{
+/* .controles{
   text-align: left;
   margin-left: 26%;
   font-size: 70%;
   position: static;
-}
+} */
 .linea1{
   text-align: center;
   font-size: 70%;
@@ -258,7 +290,12 @@ button {
 .dropdown{
   position: relative;
   margin-top: 2rem;
-  /* margin: auto; */
+  margin: auto;
+}
+.dropdown1{
+  position: absolute;
+  margin-top: -2.3rem;
+  margin-left: 10%;
 }
 /* Ensure that the demo table scrolls */
 th, td { white-space: nowrap; }
