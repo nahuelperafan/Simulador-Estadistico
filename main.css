@@ -273,6 +273,7 @@ button {
 }
 .table{
   font-size: 70%;
+  margin-block-end: 2rem;
 }
 .tr .td{
   color: #00afe0;
