@@ -29,28 +29,28 @@ button {
   font-size: 13px;
   padding: 0.6em 2.5em;
  }
- 
+
  button:hover {
   background-position: right center;
   background-size: 200% auto;
   -webkit-animation: pulse 2s infinite;
   animation: pulse512 1.5s infinite;
  }
- 
+
  @keyframes pulse512 {
   0% {
    box-shadow: 0 0 0 0 #05bada66;
   }
- 
+
   70% {
    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
   }
- 
+
   100% {
    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
   }
  }
-   
+
    .cssbuttons-io-button .icon {
     text-align: center;
     background: white;
@@ -66,21 +66,21 @@ button {
     right: 0.3em;
     transition: all 0.3s;
    }
-   
+
    .cssbuttons-io-button:hover .icon {
     width: calc(100% - 0.6em);
    }
-   
+
    .cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
     color: #00afe0;
    }
-   
+
    .cssbuttons-io-button:hover .icon svg {
     transform: translateX(0.1em);
    }
-   
+
    .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
    }
@@ -90,7 +90,7 @@ button {
     justify-content: space-between;
     text-align: center;
   }
-  
+
   .search__input {
     font-family: inherit;
     font-size: inherit;
@@ -103,47 +103,47 @@ button {
     transition: all ease-in-out .5s;
     margin-right: -2rem;
   }
-  
+
   .search__input:hover, .search__input:focus {
     box-shadow: 0 0 1em #00000013;
   }
-  
+
   .search__input:focus {
     outline: none;
     background-color: #f0eeee;
   }
-  
+
   .search__input::-webkit-input-placeholder {
     font-weight: 100;
     color: #ccc;
   }
-  
+
   .search__input:focus + .search__button {
     background-color: #f0eeee;
   }
-  
+
   .search__button {
     border: none;
     background-color: #f4f2f2;
     margin-top: .1em;
   }
-  
+
   .search__button:hover {
     cursor: pointer;
   }
-  
+
   .search__icon {
     height: 1.3em;
     width: 1.3em;
     fill: #b4b4b4;
   }
   .cajasTexto{
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     position: static;
     display: inline-block;
   }
   .input {
-    width: 32%;
+    width: 25%;
     max-width: 120px;
     height: 30px;
     padding: 12px;
@@ -153,9 +153,10 @@ button {
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
     box-shadow: 0px 0px 20px -18px;
     position: relative;
+    margin-left: -6rem;
   }
   .input2 {
-    width: 32%;
+    width: 15%;
     max-width: 220px;
     height: 30px;
     padding: 12px;
@@ -164,10 +165,10 @@ button {
     outline: none;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
     box-shadow: 0px 0px 20px -18px;
-    
+
   }
   .input3 {
-    width: 32%;
+    width: 15%;
     max-width: 220px;
     height: 30px;
     padding: 12px;
@@ -176,17 +177,49 @@ button {
     outline: none;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
     box-shadow: 0px 0px 20px -18px;
-   
+  }
+  .input4 {
+    width: 15%;
+    max-width: 220px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  .input5 {
+    width: 15%;
+    max-width: 220px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+  }
+  .input6 {
+    width: 15%;
+    max-width: 220px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
   }
   .input:hover {
     border: 2px solid #00d8e0;
     box-shadow: 0px 0px 20px -17px;
   }
-  
+
   .input:active {
     transform: scale(0.95);
   }
-  
+
   .input:focus {
     border: 2px solid #00d8e0;
   }
@@ -194,11 +227,11 @@ button {
     border: 2px solid #00d8e0;
     box-shadow: 0px 0px 20px -17px;
   }
-  
+
   .input:active {
     transform: scale(0.95);
   }
-  
+
   .input:focus {
     border: 2px solid #00d8e0;
   }
@@ -206,20 +239,14 @@ button {
     border: 2px solid #00d8e0;
     box-shadow: 0px 0px 20px -17px;
   }
-  
+
   .input:active {
     transform: scale(0.95);
   }
-  
+
   .input:focus {
     border: 2px solid #00d8e0;
   }
-.controles{
-  text-align: left;
-  margin-left: 26%;
-  font-size: 70%;
-  position: static;
-}
 .linea1{
   text-align: center;
   font-size: 70%;
@@ -241,6 +268,8 @@ button {
 }
 .table{
   font-size: 70%;
+  margin-left: 1%;
+  margin-block-end: 2rem;
 }
 .tr .td{
   color: #00afe0;
@@ -249,6 +278,7 @@ button {
   color: rgb(17, 16, 16);
   font-size: 70%;
   text-align: auto;
+  margin-left: 1rem;
 }
 .dataTables_length select{
   color: rgb(17, 16, 16);
@@ -258,7 +288,12 @@ button {
 .dropdown{
   position: relative;
   margin-top: 2rem;
-  /* margin: auto; */
+  margin: auto;
+}
+.dropdown1{
+  position: absolute;
+  margin-top: -2.3rem;
+  margin-left: 12%;
 }
 /* Ensure that the demo table scrolls */
 th, td { white-space: nowrap; }
@@ -274,11 +309,117 @@ table.dataTable tbody th, table.dataTable tbody td {
 .main_container{
   width: 90%;
   height: 90%;
-  background-color: red;
+  /* background-color: red; */
   position: absolute;
   top:0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
+}
+@media screen and (max-width: 800px) {
+  .dropdown{
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  .dropdown1{
+    margin-left: 15rem;
+  }
+  .input{
+    width: 25%;
+    margin-left: 1rem;
+    max-width: 120px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    position: relative;
+  }
+  .input2{
+    width: 25%;
+    margin-left: 1rem;
+    max-width: 120px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    position: relative;
+  }.input3{
+    width: 25%;
+    margin-left: 1rem;
+    max-width: 120px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    position: relative;
+  }.input4{
+    width: 25%;
+    margin-left: 1rem;
+    max-width: 120px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    position: relative;
+  }.input5{
+    width: 25%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    max-width: 120px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    position: relative;
+  }.input6{
+    width: 25%;
+    margin-left: 1rem;
+    max-width: 120px;
+    height: 30px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #00afe0;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    position: relative;
+  }
+  .table{
+    font-size: 80%;
+    margin-left: 45%;
+    margin-block-end: 2rem;
+  }
+  .dataTables_length{
+    color: rgb(17, 16, 16);
+    font-size: 90%;
+    text-align: auto;
+    margin-left: 6rem;
+  }
+  button {
+    border: none;
+    color: rgb(242, 234, 234);
+    background-image: linear-gradient(30deg, #00afe0, #4ce3f7);
+    border-radius: 15px;
+    background-size: 100% auto;
+    font-family: inherit;
+    margin-left: 1rem;
+    font-size: 13px;
+    padding: 0.6em 2.5em;
+   }
 }
