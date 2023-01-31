@@ -17,7 +17,7 @@ $(document).ready(function() {
             //  "sProcessing":"Procesando...",
         },
         //para usar los botones   
-        responsive: "false",
+        responsive: "true",
         searching: false,
         //dom: 'Btl',       
         // buttons:[ 

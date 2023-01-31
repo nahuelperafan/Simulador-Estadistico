@@ -2046,9 +2046,9 @@ pre code {
 
 @media (max-width:575.98px) {
     .table-responsive-sm {
-        display: block;
+         display: block;
         width: 100%;
-        overflow-x: auto;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar
     }
@@ -2058,11 +2058,12 @@ pre code {
     }
 }
 
+
 @media (max-width:767.98px) {
     .table-responsive-md {
         display: block;
         width: 100%;
-        overflow-x: auto;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar
     }
@@ -2076,7 +2077,7 @@ pre code {
     .table-responsive-lg {
         display: block;
         width: 100%;
-        overflow-x: auto;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar
     }
@@ -2090,7 +2091,7 @@ pre code {
     .table-responsive-xl {
         display: block;
         width: 100%;
-        overflow-x: auto;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar
     }
