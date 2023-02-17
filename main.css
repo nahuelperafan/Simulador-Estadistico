@@ -109,8 +109,11 @@ table>tbody>tr>td {
   position: absolute;
 }
 .table{
+  overflow: hidden;
   font-size: 70%;
-  margin-left: -2%;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 0%;
   margin-block-end: 2rem;
 }
 .tr .td{
@@ -130,7 +133,7 @@ table>tbody>tr>td {
 /* Ensure that the demo table scrolls */
 th, td { white-space: nowrap; }
 div.dataTables_wrapper {
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
 }
 tr { height: 1px; }
@@ -139,8 +142,8 @@ table.dataTable tbody th, table.dataTable tbody td {
   padding: 5px 5px; /* e.g. change 8x to 4px here */
 }
 .main_container{
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
   position: absolute;
   top:0;
   bottom: 0;
