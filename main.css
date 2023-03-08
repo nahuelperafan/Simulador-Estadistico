@@ -1,3 +1,6 @@
+body {
+  background-color: #e5eaeb;
+}
 /*estilos para la tabla*/
 table th {
     background-color: #0d0d0d !important;
@@ -5,6 +8,7 @@ table th {
 }
 table>tbody>tr>td {
     vertical-align: middle !important;
+    overflow-y: hidden;
 }
 
 /*para alinear los botones y cuadro de busqueda*/
@@ -65,31 +69,46 @@ table>tbody>tr>td {
     fill: #b4b4b4;
   }
   .cajasTexto{
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     position: static;
-    display: inline-block;
-  } 
-  
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
 .linea1{
   text-align: center;
   font-size: 70%;
   position: static;
-  display: inline-block;
 }
+
 .linea2{
   text-align: center;
-  font-size: 80%;
-  position: relative;
-  display: inline-block;
+  font-size: 70%;
+  position: static;
+  display: grid;
+  align-content: center;
+  justify-content: space-around;
+  align-items: start;
+  justify-items: start;
+}
+
+.linea3{
+  text-align: center;
+  font-size: 70%;
+  position: static;
+  display: grid;
+  align-content: center;
+  justify-content: space-around;
+  align-items: start;
+  justify-items: start;
 }
 .btn-secondary {
-  margin-right: 10rem;
   font-size: 90%;
   color: rgb(12, 12, 12);
   background-color: #fffcfc;
-  margin-left: 1rem;
+  margin-top: -3.3rem;
+  margin-left: 14rem;
   border-radius: 0.2rem;
- 
 }
 .btn-secondary:hover {
   border: 1px solid #706e6e;
@@ -108,22 +127,15 @@ table>tbody>tr>td {
   border-radius: 0.2rem;
   position: absolute;
 }
-.table{
-  overflow: hidden;
-  font-size: 70%;
-  width: 100%;
-  margin: 0 auto;
-  margin-left: 0%;
-  margin-block-end: 2rem;
-}
-.tr .td{
+
+/* .tr .td{
   color: #0d0d0d;
-}
-.dataTables_length{
+} */ */
+/* .dataTables_length{
   color: rgb(17, 16, 16);
   font-size: 70%;
   text-align: auto;
-  margin-left: 1rem;
+  margin-left: 11rem;
 }
 .dataTables_length select{
   color: rgb(17, 16, 16);
@@ -131,7 +143,7 @@ table>tbody>tr>td {
   text-align: auto;
 }
 /* Ensure that the demo table scrolls */
-th, td { white-space: nowrap; }
+/* th, td { white-space: nowrap; }
 div.dataTables_wrapper {
     width: 700px;
     margin: 0 auto;
@@ -140,24 +152,35 @@ tr { height: 1px; }
 
 table.dataTable tbody th, table.dataTable tbody td {
   padding: 5px 5px; /* e.g. change 8x to 4px here */
-}
+
 .main_container{
-  width: 80%;
-  height: 80%;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 86%;
+  margin: 0 auto;
+  background-color: rgb(14, 15, 14);
+  padding: 20px;
+  border: 1px solid black;
 }
+.controles {
+  display: grid;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+}
+
 @media screen and (max-width: 800px) {
-  .dropdown{
-    margin-top: 2rem;
-    margin-left: 4rem;
-  }
-  .dropdown1{
-    margin-left: 15rem;
+  .btn-secondary {
+    font-size: 90%;
+    color: rgb(12, 12, 12);
+    background-color: #fffcfc;
+    margin-top: -3.3rem;
+    margin-left: 14rem;
+    border-radius: 0.2rem;
   }
   .input{
     width: 25%;
@@ -234,17 +257,18 @@ table.dataTable tbody th, table.dataTable tbody td {
     box-shadow: 0px 0px 20px -18px;
     position: relative;
   }
-  .table{
+  /* .table{
+    display: grid;
     font-size: 80%;
     margin-left: 45%;
-    margin-block-end: 2rem;
+    margin-block-end: 1rem;
   }
   .dataTables_length{
     color: rgb(17, 16, 16);
     font-size: 90%;
     text-align: auto;
     margin-left: 6rem;
-  }
+  } */
 }
 /* Boton De Iniciar */
 button {
@@ -275,34 +299,34 @@ button {
   white-space: nowrap;
   word-wrap: break-word;
  }
- 
+
  button:hover {
   background-color: #F3F4F6;
   text-decoration: none;
   transition-duration: 0.1s;
  }
- 
+
  button:disabled {
   background-color: #FAFBFC;
   border-color: rgba(27, 31, 35, 0.15);
   color: #959DA5;
   cursor: default;
  }
- 
+
  button:active {
   background-color: #EDEFF2;
   box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
   transition: none 0s;
  }
- 
+
  button:focus {
   outline: 1px transparent;
  }
- 
+
  button:before {
   display: none;
  }
- 
+
  button:-webkit-details-marker {
   display: none;
  }
