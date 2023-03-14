@@ -2710,20 +2710,20 @@
                 <div class="cajasTexto">
 
                     <div class="form__group">
-                        <input type="text"  id="miInput" class="form__field w-100" placeholder="Input text">
-                        <label for="name" class="form__label"> Ingrese Valor </label>
+                        <input type="number" id="miInput" class="form__field w-100" placeholder="Input text">
+                        <label for="name" class="form__label"> Operando1 </label>
                     </div>
 
                     <div class="form__group1">
-                        <input type="number"  id="miInput" class="form__field w-100" placeholder="Input text">
-                        <label for="name" class="form__label"> Ingrese Valor </label>
+                        <input type="number" id="miInput2" class="form__field w-100" placeholder="Input text">
+                        <label for="name" class="form__label"> Operando2 </label>
                     </div>
                     <div class="form__group2">
-                        <input type="text" class="form__field w-100" placeholder="Input text">
-                        <label for="name" class="form__label"> Ingrese Valor </label>
+                        <input type="text" id="miInput3" class="form__field w-100" placeholder="Input text">
+                        <label for="name" class="form__label"> Celda Resultado </label>
                     </div>
                     <div class="form__group3">
-                        <input type="text" class="form__field w-100" placeholder="Input text">
+                        <input type="text" id="miInput4" class="form__field w-100" placeholder="Input text">
                         <label for="name" class="form__label"> Ingrese Valor </label>
                     </div>
                     <div class="form__group4">
@@ -2736,7 +2736,7 @@
                     </div>
             </div>
                     <div class="linea3">
-                        <button id="miBoton" onclick="sumarValores()">Iniciar</button>
+                        <button id="miBoton">Calcular</button>
                     </div>
                     
             
@@ -2747,9 +2747,10 @@
                       Dropdown button
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">A</a></li>
-                      <li><a class="dropdown-item" href="#">B</a></li>
-                      <li><a class="dropdown-item" href="#">C</a></li>
+                      <li><a class="dropdown-item" id="miInput"  href="#">Suma</a></li>
+                      <li><a class="dropdown-item" id="miInput2" href="#">Resta</a></li>
+                      <li><a class="dropdown-item" id="miInput3" href="#">Multiplicación</a></li>
+                      <li><a class="dropdown-item" id="miInput4" href="#">División</a></li>
                     </ul>
                   </div>
                   
